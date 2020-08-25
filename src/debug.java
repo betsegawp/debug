@@ -12,13 +12,13 @@ public class debug {
             if (testscore >= 90) {
                 grade = 'A';
             }
-            if (testscore >= 80) {
+           else if (testscore >= 80) {
                 grade = 'B';
             }
-            if (testscore >= 70) {
+            else if (testscore >= 70) {
                 grade = 'C';
             }
-            if (testscore >= 60) {
+            else if (testscore >= 60) {
                 grade = 'D';
             } else {
                 grade = 'F';
